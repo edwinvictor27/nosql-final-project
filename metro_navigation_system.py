@@ -6,20 +6,20 @@ import json
 import requests
 
 # MongoDB setup
-MONGO_USERNAME = "followalong"
-MONGO_PASSWORD = "Password123"
-MONGO_CLUSTER_URL = "cluster0.3d5bm.mongodb.net"
+MONGO_USERNAME = "replace with your username"
+MONGO_PASSWORD = "replace with your username"
+MONGO_CLUSTER_URL = "clusterurl"
 MONGO_URI = f"mongodb+srv://{MONGO_USERNAME}:{MONGO_PASSWORD}@{MONGO_CLUSTER_URL}/?retryWrites=true&w=majority"
 
 # Neo4j setup
-NEO4J_URI = "neo4j+ssc://71694c64.databases.neo4j.io"
-NEO4J_AUTH = ("neo4j", "67K_YaJF3anGhvRJ63gLW3Qdx0B_AuTFSVUgWc-V7z4")
+NEO4J_URI = "neo4j+ssc:/replace with your details.databases.neo4j.io"
+NEO4J_AUTH = ("neo4j", "replace with your password")
 
 # Redis setup
-REDIS_HOST = "redis-14767.c100.us-east-1-4.ec2.redns.redis-cloud.com"
-REDIS_PORT = 14767
-REDIS_USERNAME = "default"
-REDIS_PASSWORD = "ZnvOdRoTWWFhmDToxBcncijbb3UE8WJL"
+REDIS_HOST = "repalce.redis-cloud.com"
+REDIS_PORT = XXXXX
+REDIS_USERNAME = "replace with your username"
+REDIS_PASSWORD = "replace with your password"
 
 # Weather setup
 WEATHER_URL = "https://api.open-meteo.com/v1/forecast"
