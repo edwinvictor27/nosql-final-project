@@ -3,8 +3,8 @@ from pymongo.server_api import ServerApi
 import json
 
 # MongoDB connection details
-username = "followalong"
-password = "Password123"
+username = "replace with your username"
+password = "replace with your password"
 cluster_url = "cluster0.3d5bm.mongodb.net"
 
 # Connection URI
