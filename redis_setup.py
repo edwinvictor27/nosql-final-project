@@ -2,10 +2,10 @@ import redis
 import json
 
 # Redis connection details
-REDIS_HOST = "redis-14767.c100.us-east-1-4.ec2.redns.redis-cloud.com"
-REDIS_PORT = 14767
-REDIS_USERNAME = "default"
-REDIS_PASSWORD = "ZnvOdRoTWWFhmDToxBcncijbb3UE8WJL"
+REDIS_HOST = "xxxxx.redis-cloud.com"
+REDIS_PORT = xxxxx
+REDIS_USERNAME = "replace with your username"
+REDIS_PASSWORD = "replace with your password"
 
 # File path for JSON data
 METRO_JSON_PATH = "metro.json"
