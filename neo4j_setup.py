@@ -3,8 +3,8 @@ import json
 from math import radians, sin, cos, sqrt, atan2
 
 # Neo4j connection details
-URI = "neo4j+ssc://71694c64.databases.neo4j.io"
-AUTH = ("neo4j", "67K_YaJF3anGhvRJ63gLW3Qdx0B_AuTFSVUgWc-V7z4")
+URI = "replace with your details.databases.neo4j.io"
+AUTH = ("neo4j", "replace with your password")
 
 
 # Establish connection to Neo4j
